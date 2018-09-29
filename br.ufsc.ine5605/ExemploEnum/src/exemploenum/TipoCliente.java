@@ -9,4 +9,5 @@ public enum TipoCliente {
     
     TipoCliente(String mensagemRecebida) {
         mensagem = mensagemRecebida;
+    }
 }
