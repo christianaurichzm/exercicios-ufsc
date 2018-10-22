@@ -11,7 +11,6 @@ public class ControladorPessoas implements IControladorPessoas {
         tecnicos = new ArrayList<>();
     }
 
-
     @Override
     public ArrayList<Cliente> getClientes() {
         return this.clientes;
@@ -24,14 +23,9 @@ public class ControladorPessoas implements IControladorPessoas {
 
     @Override
     public IPessoa incluiCliente(int codigo, String nome) {
-                 
-             cliente = new Cliente(nome, codigo);
-               
-    
-                clientes.add(cliente);
-
-                return cliente;
-     
+        cliente = new Cliente(nome, codigo);
+        clientes.add(cliente);
+        return cliente;     
     }
     
     @Override
@@ -41,7 +35,6 @@ public class ControladorPessoas implements IControladorPessoas {
                 tecnico = new Tecnico(nome, codigo);
                 this.tecnicos.add(tecnico);
                 return tecnico;
-
             }
         }
         return null;
