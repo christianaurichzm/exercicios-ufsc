@@ -1,11 +1,5 @@
-Sistemas de Informação - UFSC
+INE5605 - Desenvolvimento de Sistemas Orientados a Objetos I
 ===============================
 
-Repositório com exercícios e trabalhos realizados durante o curso de bacharelado em Sistemas de Informação da Universidade Federal de Santa Catarina.
+Repositório com exercícios desenvolvidos durante a disciplina de programação orientada a objetos do curso de Sistemas de Informação da UFSC.
 
-Disciplinas
------------
-
-
-- [INE5605 - Desenvolvimento de Sistemas Orientados a Objetos I](/br.ufsc.ine5605/)
-  > Implementação de pequenos projetos com programação orientada a objetos. Sistemas de Tipo;Sistemas de Tratamento de Exceções.
